@@ -1,0 +1,246 @@
+body {
+    font-family: 'Impact';
+    letter-spacing: 3px;
+    word-spacing: 1.2px;
+    background-color: rgb(255, 188, 188);
+    overflow-x: hidden;
+}
+header {
+    border: 10px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+#logo {
+    height: 125px;
+    display: flex;
+    display: inline-block;
+    margin: 2px 2px 2px 10px;
+}
+header h1 {
+    color:rgb(255, 107, 107);
+    font-size: 38px;
+    font-weight: bolder;
+    text-shadow: 3px 2px 1px rgb(0, 0, 0);
+}
+.menu-principal {
+    background-color: rgb(255, 145, 145);
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    text-align: center;
+    height: 60px;
+    text-shadow: 2px 1.5px 0px rgb(0, 0, 0);
+}
+.menu-principal li {
+    display: flex;
+    display: inline-block;
+}
+.menu-principal a:hover {
+    color: rgb(255, 108, 108);
+    text-shadow: 2px 1.5px 0px rgb(255, 255, 255);
+}
+.menu-principal a {
+    color: white;
+}
+#bem-estar {
+    text-align: center;
+    color: rgb(18, 50, 18);
+    display: inline-block;
+    width: 75%;
+    box-sizing: border-box;
+    height: 100%;
+}
+#bem-estar p {
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    font-size: 18px;
+    margin: 10px 10px;
+    text-indent: 0em;
+    text-align: justify;
+    line-height: 1.8em;
+    padding: 2px 80px;
+    display: inline-block;
+    width: 90%;
+    font-weight: bold;
+}
+.img-fitness {
+    float: right;
+    width: 20%;
+}
+.img-fitness img {
+    max-width: 650px;
+    margin-left: -280px;
+    padding-top: 20px;
+}
+.footer-content {
+    font-size: 18px;
+    color: rgb(18, 50, 18);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 20px;
+    width: 100%;
+}
+.footer-content img {
+    width: 40px;
+    margin-right: 20px;
+}
+.sobre {
+    background-image: url('img/fitness1.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+    width: 100%;
+}
+#content-sobre {
+    text-align: center;
+    color: rgb(18, 50, 18);
+}
+#content-sobre p {
+    background-color: rgb(195, 236, 195, 0.8);
+    box-shadow: -3px 2px 15px lightgreen;
+    font-size: 22px;
+    margin: 45px 30px;
+    text-indent: 4em;
+    text-align: justify;
+    line-height: 2.5em;
+    padding: 2px 80px;
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+}
+#content-sobre h3 {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+.novidades {
+    background-color: rgb(218, 240, 218);
+    padding: 50px;
+    text-align: center;
+}
+.novidades hr {
+    box-shadow: -8px 5px 10px gray;
+    width: 70%;
+    height: 5px;
+    margin: 0px 15% 40px;
+}
+#content-novidades article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#content-novidades h3 {
+    color: rgb(18, 50, 18);
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 40px 20px 50px;
+}
+#content-novidades p {
+    background-color: rgb(212, 231, 212, 0.8);
+    box-shadow: -3px 2px 15px lightgreen;
+    font-size: 17px;
+    margin: 45px 30px;
+    text-indent: 4em;
+    text-align: justify;
+    line-height: 2.5em;
+    padding: 22px 80px;
+    display: inline-block;
+    width: 45%;
+    font-weight: bold;
+}
+#comtent-novidades img {
+    max-width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+#calc-imc {
+    border: 2px solid gray;
+    background-color: rgb(234, 230, 177);
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    width: 30%;
+    height: 340px;
+    margin: 120px 40px 100px 100px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+#calc-imc input {
+    width: 60%;
+    height: 40px;
+    margin: 10px 5px 5px;
+    padding: 3px 10px;
+    text-align: center;
+}
+#calc-imc label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#calc-imc button {
+    width: 60%;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    padding: 7px 0px 5px;
+    color: rgb(53, 113, 53);
+    margin-top: auto;
+    box-shadow: -4px 4px 5px gray;
+    border-radius: 14px;
+    border: none;
+    position: relative;
+}
+#calc-imc button:hover {
+    color: rgb(50, 184, 50);
+    background-color: rgb(216, 241, 216);
+    box-shadow: -8px 8px 5px lightgray;
+    border: 2px solid rgb(244, 244, 133);
+}
+.result {
+    border: 3px solid black;
+    width: 40%;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    margin: 122px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.result h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.result div {
+    background-color: rgb(241, 277, 277);
+    box-shadow: -3px 5px 18px white;
+    max-width: 650px;
+    padding: 10px 15px;
+    height: 400px;
+    display: inline-block;
+}
+.page-result {
+    display: flex;
+}
+.result img {
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+}
